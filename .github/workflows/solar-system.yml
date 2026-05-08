@@ -56,7 +56,7 @@ jobs:
             
 
         - name: run code-coverage
-          run: npm run code-coverage
+          run: npm run coverage
 
         - name: upload artifact
           if: always()
